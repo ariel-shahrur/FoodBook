@@ -1,0 +1,26 @@
+-- Example INSERT statements for shopeIngredients table
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Flour', 2.99, 100);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Sugar', 1.49, 200);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Salt', 0.99, 50);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Butter', 3.49, 75);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Egg', 1.99, 30);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Milk', 2.29, 80);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Baking Powder', 1.79, 40);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Vanilla Extract', 4.99, 20);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Chocolate Chips', 3.99, 60);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Olive Oil', 5.49, 45);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Onion', 1.29, 90);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Garlic', 0.89, 70);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Tomatoe', 1.99, 65);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Bell Peppers', 1.79, 55);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Chicken', 7.99, 25);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Beef', 9.99, 30);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Pasta', 2.49, 85);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Rice', 1.69, 70);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Canned Beans', 1.29, 40);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Soy Sauce', 3.79, 60);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Chili Powder', 2.29, 25);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Cumin', 1.99, 30);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Paprika', 1.49, 35);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Lemon Juice', 2.79, 50);
+INSERT INTO shopeIngredients (IngredientName, Price, Quantity) VALUES ('Dill', 0.99, 20);

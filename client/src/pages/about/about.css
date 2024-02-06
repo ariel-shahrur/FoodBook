@@ -1,0 +1,10 @@
+.aboutDiv{
+    width: 90%;
+    min-height: 80vh;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutHeader{
+    padding: 20px;
+}

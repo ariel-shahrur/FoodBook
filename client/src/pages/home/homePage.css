@@ -1,0 +1,36 @@
+.homePageDiv{
+   width: 100%;
+   padding: 20px;
+   min-height: 85vh;
+   background-image: url('./homePage.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+
+.homePageHeadLine{
+    width: 45%;
+    color: rgb(77, 141, 194);
+    font-family: cursive;
+    font-size: 5rem;
+}
+.homePageDescriptionDiv{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(156, 203, 245);
+    width: 35%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 3.5rem;
+    margin-top: 45px;
+}
+
+.toSignUp{
+    cursor: pointer;
+    color: rgb(77, 141, 194);
+    font-family: cursive;
+    font-weight: bold;
+}
+
+

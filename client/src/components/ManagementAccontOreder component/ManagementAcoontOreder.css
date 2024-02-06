@@ -1,0 +1,43 @@
+.ordersDiv{
+    width: 90%;
+    min-height: 80vh;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    font-family: Times, Times New Roman, serif;
+}
+
+.order-top-Row{
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.order-Row{
+    display: flex;
+}
+
+.orderItem{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(168, 157, 157); 
+    list-style: none;
+}
+
+.ingredientsQuentityDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 650px)  {
+    .ordersDiv{
+        font-size: 0.6rem;
+    }
+}
+
+/* @media (max-width: 430px)  {
+    .ordersDiv{
+        font-size: 0.4rem;
+    }
+} */

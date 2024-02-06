@@ -1,0 +1,120 @@
+
+
+.recipeHeadline{
+    width: 100%;
+    background: #c9c9b5;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.recipeCardPaper{
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    background: repeating-linear-gradient(#FFF, #FFF 31px, #94ACD4 31px, #94ACD4 32px);
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.iconsDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .iconDivItem{
+    text-align: center;
+  }
+
+  .ingredientsHeadline,.directionsHeadline{
+    display: block;
+    border-bottom: 1px solid black;
+    margin: 5px 0;
+    display: inline-block;
+  }
+
+
+  .ingredientsTitle,.directionsTitle{
+    margin-top: 3px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+  }
+
+  .recipeImagesDiv{
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+  .recipeImagesDivImg,.numberDiv{
+    width: 45%;
+    height: 20vh;
+    border: 1px solid black;
+    margin-left: 5px;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    min-height: 50%;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+.numberImg{
+  width: 100%;
+  height: 100%;
+}
+.numberDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+  .numberOfImages{
+  background: rgba(0, 0, 0, 0.641);
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  }
+
+  .prevNextIcon{
+    cursor: pointer;
+    color: #FFF;
+  }
+
+  @media (max-width: 730px) {
+    .recipeHeadline{
+      font-size: 0.7rem;
+  }
+    .recipeCardPaper,.shortRecipePepar{
+      padding: 0 20px;
+      font-size: 12px;
+  }
+  }
+
+  @media (max-width: 800px) and (min-width:600px) {
+
+  }

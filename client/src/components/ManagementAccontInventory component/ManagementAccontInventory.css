@@ -1,0 +1,89 @@
+.inventoryBody{
+    width: 100%;
+    min-height: 80vh;
+    min-width: 300px;
+}
+.inventoryTable {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    font-family: Times, Times New Roman, serif;
+}
+
+.top-Row {
+    display: flex;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.inventory-row {
+    display: flex;
+    position: relative;
+}
+
+.inventory-row input {
+    border: none;
+    text-align: center;
+}
+
+.item {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid rgb(168, 157, 157);
+    padding: 2px 8px 2px 0;
+}
+
+
+
+.deleteFromInventoryIcon {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom-Row {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.IngredientName:hover::placeholder,.Quantity:hover::placeholder,.Price:hover::placeholder {
+    color: rgb(128, 8, 241);
+}
+
+.addIngredientbtnDiv {
+    text-align: center;
+}
+
+.add-ingredient-btn{
+    padding: 5px;
+    border-radius: 8px;
+    border-color: rgb(43, 132, 241);
+    background-color:rgb(197, 217, 243) ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bottom-Row-item {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3px;
+}
+
+.IngredientName,
+.Quantity,
+.Price {
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(13, 167, 238);
+    font-weight: bold;
+}
